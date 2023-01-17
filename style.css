@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: "Lora", serif;
+  color: #e06277;
+  opacity: 0.8;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h2,
+p {
+  opacity: 0.8;
+}
+
+h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #e06277;
+  opacity: 0.8;
+}
+
 main {
   min-height: 100vh;
   background: linear-gradient(to right top, #e06277, #f9abb8);
@@ -16,7 +37,7 @@ main {
   display: flex;
   background: white;
   min-height: 80vh;
-  width: 60%;
+  width: 70%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -25,6 +46,7 @@ main {
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(0.7rem);
+  margin: 3rem 0;
 }
 
 .circle1,
@@ -78,15 +100,59 @@ main {
 }
 
 .dashboard {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: flex;
+  flex-direction: column;
   flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 2rem 0;
+}
+
+.link {
+  display: flex;
+  margin: 2rem 0;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0 2rem;
 }
 
 .projects {
-  flex: 1;
+  flex: 2;
+  padding: 2rem 0;
+}
+
+.contact {
+  background: linear-gradient(to right top, #e06277, #f9abb8);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 i {
-  font-size: 20px;
+  font-size: 1.5rem;
+}
+
+.link i {
+  background-color: white;
+  background: linear-gradient(to right top, #e06277, #f9abb8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 img {
