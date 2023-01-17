@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #e06277, #f9abb8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  display: flex;
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(0.7rem);
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  height: 20rem;
+  width: 20rem;
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  height: 20rem;
+  width: 20rem;
+  bottom: 5%;
+  left: 10%;
+}
+
+.circle3 {
+  height: 10rem;
+  width: 10rem;
+  bottom: 5%;
+  right: 15%;
+}
+
+.circle4 {
+  height: 5rem;
+  width: 5rem;
+  top: 25%;
+  left: 20%;
+}
+
+.user-img {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.dashboard {
+  flex: 1;
+}
+
+.projects {
+  flex: 1;
+}
+
+i {
+  font-size: 20px;
+}
+
+img {
+  max-width: 200px;
+}
