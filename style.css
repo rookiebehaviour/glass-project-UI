@@ -33,6 +33,12 @@ main {
   justify-content: center;
 }
 
+input {
+  width: 50%;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
 .glass {
   display: flex;
   background: white;
@@ -128,7 +134,7 @@ main {
 
 .projects {
   flex: 2;
-  padding: 2rem 0;
+  padding: 3rem;
 }
 
 .contact {
